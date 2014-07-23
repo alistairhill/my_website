@@ -1,11 +1,22 @@
 * {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
-.posts {
-  margin: 2px;
+
+.container {
+  margin: 40px;
+}
+
+.post {
   padding: 2px;
   font-family: "Times New Roman", Times, serif;
+
 }
 .post-title {
-  font-size: 27px;
+  font-size: 25px;
+}
+
+.post-date {
+  font-size: 10px;
+  color: gray;
+  margin-bottom: 20px;
 }

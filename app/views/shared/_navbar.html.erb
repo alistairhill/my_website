@@ -1,7 +1,7 @@
-<%= link_to "Sign up", new_user_path %>
 <% if logged_in %>
   <%= link_to "Sign out", sessions_delete_path %>
 <% else %>
+  <%= link_to "Sign up", new_user_path %>
   <%= link_to "Sign in", new_session_path %>
 <% end %>
 <%= link_to "Blog", articles_path %>
