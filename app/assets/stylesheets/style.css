@@ -1,0 +1,11 @@
+* {
+  border: 1px solid black;
+}
+.posts {
+  margin: 2px;
+  padding: 2px;
+  font-family: "Times New Roman", Times, serif;
+}
+.post-title {
+  font-size: 27px;
+}
