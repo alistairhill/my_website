@@ -1,5 +1,5 @@
 * {
-  /*border: 1px solid black;*/
+  border: 1px solid black;
 }
 
 .container {
@@ -15,8 +15,20 @@
   font-size: 25px;
 }
 
+.post-credits {
+  margin: auto;
+  font-size: 11px;
+  margin-bottom: 20px;
+
+}
+
 .post-date {
+  float: left;
+  margin-top: 1px;
+  margin-right: 5px;
   font-size: 10px;
   color: gray;
-  margin-bottom: 20px;
+}
+
+.post-user {
 }
