@@ -2,6 +2,10 @@
   border: 1px solid black;
 }
 
+body {
+  /*background-image:url('bg1940.jpg');*/
+}
+
 .container {
   margin: 40px;
 }
@@ -19,7 +23,6 @@
   margin: auto;
   font-size: 11px;
   margin-bottom: 20px;
-
 }
 
 .post-date {
@@ -32,3 +35,4 @@
 
 .post-user {
 }
+
