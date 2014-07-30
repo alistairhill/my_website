@@ -10,12 +10,12 @@ body {
   padding: 2px;
 }
 
+/*A LINK STUFF*/
 a {
   text-decoration: none;
 }
-
 a:link {
-  color: #FFF;
+  color: #EFF;
 }
 a:visited {
   color: #FFF;
@@ -24,7 +24,7 @@ a:hover {
   color: #EEE;
 }
 a:active {
-  color: #000;
+  color: #DDD;
 }
 
 .logo {
@@ -33,16 +33,46 @@ a:active {
 }
 
 .logo a:hover {
-  color: #FFF;
+  color: #EFF;
 }
 
 .navbar {
-
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 .container {
   margin: 40px;
+  border: black solid 1px;
 }
+
+/*FRONT PAGE NAV STUFF*/
+/*#################################*/
+.blog, .portfolio, .game-port, .contact {
+  margin: 10px;
+  border: #FFF solid 1px;
+  border-radius: 7px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+}
+.blog:hover, .portfolio:hover, .game-port:hover, .contact:hover {
+  color: white;
+  background-color:rgba(255,255,255,0.2);
+}
+.blog {
+}
+.portfolio {
+}
+.game-port {
+
+}
+.contact {
+
+}
+/*#################################*/
 
 .post {
   padding: 2px;
