@@ -4,6 +4,40 @@
 
 body {
   /*background-image:url('bg1940.jpg');*/
+  color: white;
+  background-color: #639DCD;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #FFF;
+}
+a:visited {
+  color: #FFF;
+}
+a:hover {
+  color: #EEE;
+}
+a:active {
+  color: #000;
+}
+
+.logo {
+  margin: 6px;
+  font-size: 3em;
+}
+
+.logo a:hover {
+  color: #FFF;
+}
+
+.navbar {
+
 }
 
 .container {
@@ -13,7 +47,6 @@ body {
 .post {
   padding: 2px;
   font-family: "Times New Roman", Times, serif;
-
 }
 .post-title {
   font-size: 25px;
