@@ -1,7 +1,11 @@
-<%= form_for @user do |f| %>
-  <%= f.label :username %>
-  <%= f.text_field :username %>
-  <%= f.label :password %>
-  <%= f.password_field :password %>
-  <%= f.submit %>
-<% end %>
+<div class="log-signup-form">
+  <%= form_for @user do |f| %>
+    <%= f.label :username %>
+    <%= f.text_field :username, autofocus: true, placeholder: ''  %>
+    <br>
+    <%= f.label :password %>
+    <%= f.password_field :password, autofocus: true, placeholder: ''  %>
+    <br>
+    <%= submit_tag "create new account", class: "create" %>
+  <% end %>
+</div>
