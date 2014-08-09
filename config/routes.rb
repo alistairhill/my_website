@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   root 'pages#index'
 
+  get 'pages/portfolio', as: 'portfolio_page'
+
   resources :users, path: "signup", only: [:new, :create]
 
   resources :articles, path: "blog" do
