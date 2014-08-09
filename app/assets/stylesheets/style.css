@@ -42,7 +42,7 @@ a:active {
 }
 
 .container {
-  /*text-align: center;*/
+  text-align: center;
   margin: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -50,9 +50,16 @@ a:active {
   width: 70%;
 }
 
+.main-container {
+  width: 90%;
+  border: black solid 1px;
+  margin: auto;
+}
+
 /*FRONT PAGE NAV STUFF*/
 /*#################################*/
 .blog, .portfolio, .game-port, .contact {
+
   font-size: 3em;
   text-align: center;
   margin-left: auto;
@@ -66,20 +73,13 @@ a:active {
   line-height: 275px;
   background-color:rgba(255,255,255,0.1);
   float: left;
+
 }
 .blog:hover, .portfolio:hover, .game-port:hover, .contact:hover {
   background-color:rgba(255,255,255,0.2);
   font-style: italic;
+}
 
-}
-.blog {
-}
-.portfolio {
-}
-.game-port {
-}
-.contact {
-}
 /*#################################*/
 
 .post {
