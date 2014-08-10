@@ -1,0 +1,11 @@
+<div class="log-signup-form">
+  <%= form_tag sessions_path do %>
+    <%= label_tag :username %>
+    <%= text_field_tag :username, '', autofocus: true, placeholder: '' %>
+    <br>
+    <%= label_tag :password %>
+    <%= text_field_tag :password, '', autofocus: true, placeholder: '' %>
+    <br>
+    <%= submit_tag "login", class: "create" %>
+  <% end %>
+</div>

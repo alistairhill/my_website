@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MyWebsite</title>
+  <title>Alistair Hill</title>
+  <link rel="shortcut icon" href="favicon.ico" />
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <div class="logo">
+    <%= link_to "Alistair Hill", root_path %>
+  </div>
+  <%= render 'shared/navbar' %>
+  <%= yield %>
 </body>
 </html>

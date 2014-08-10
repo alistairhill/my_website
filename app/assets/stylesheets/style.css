@@ -1,0 +1,194 @@
+* {
+  border: 0px solid black;
+}
+
+body {
+  /*background-image:url('bg1940.jpg');*/
+  color: white;
+  background-color: #639DCD;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding: 2px;
+}
+
+/*A LINK STUFF*/
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #EEE;
+}
+a:visited {
+  color: #EEE;
+}
+a:hover {
+  color: #FFF;
+}
+a:active {
+  color: #DDD;
+}
+
+.logo {
+  margin: 6px;
+  font-size: 3em;
+}
+
+.logo a:link, .logo a:visited {
+  color: #FFF;
+}
+
+.navbar {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.container {
+  text-align: center;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border: black solid 1px;
+  width: 70%;
+}
+
+.main-container {
+  width: 90%;
+  border: black solid 1px;
+  margin: auto;
+}
+
+/*FRONT PAGE NAV STUFF*/
+/*#################################*/
+.blog, .portfolio, .game-port, .contact {
+
+  font-size: 3em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
+  border: #FFF solid 6px;
+  border-radius: 12px;
+  padding: 10px;
+  width: 275px;
+  height: 275px;
+  line-height: 275px;
+  background-color:rgba(255,255,255,0.1);
+  float: left;
+
+}
+.blog:hover, .portfolio:hover, .game-port:hover, .contact:hover {
+  background-color:rgba(255,255,255,0.2);
+  font-style: italic;
+}
+
+/*#################################*/
+
+.post {
+  padding: 2px;
+  font-family: "Times New Roman", Times, serif;
+}
+.post-title {
+  font-size: 25px;
+}
+
+.post-credits {
+  margin: auto;
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+
+.post-date {
+  float: left;
+  margin-top: 1px;
+  margin-right: 5px;
+  font-size: 10px;
+  color: #DDD;
+}
+
+.post-user {
+}
+
+.login-input {
+  background-color: transparent;
+}
+
+input {
+  color: #000;
+  background-color:rgba(255,255,255,0.3);
+  border-radius: 2px;
+  border: solid #444 1px;
+}
+
+.log-signup-form {
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+label {
+    float: left;
+    width: 150px;
+    text-align: right;
+    margin-right: 0.5em;
+}
+
+ .submit {
+  background-color: #111;
+  margin-right:  0.5em;
+ }
+
+/*MEDIA QUERIES*/
+/*#################################*/
+@media screen and (max-width: 1030px) {
+  body {
+    background: url(bg1030.jpg) no-repeat left top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1031px) and (max-width: 1300px) {
+  body {
+    background: url(../images/bg1300.jpg) no-repeat left top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1380px) {
+  body {
+    background: url(../images/bg1380.jpg) no-repeat left top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1381px) and (max-width: 1460px) {
+  body {
+    background: url(../images/bg1460.jpg) no-repeat left top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1461px) and (max-width: 1700px) {
+  body {
+    background: url(../images/bg1700.jpg) no-repeat left top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1701px) and (max-width: 2920px) {
+  body {
+    background: url(../images/bg1920.jpg) no-repeat left top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+  }
+}
