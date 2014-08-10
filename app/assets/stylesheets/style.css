@@ -184,9 +184,9 @@ label {
   }
 }
 
-@media screen and (min-width: 1461px) and (max-width: 1700px) {
+@media screen and (min-width: 1701px) and (max-width: 2920px) {
   body {
-    background: url(bg1940.jpg) no-repeat left top fixed;
+    background: url(../images/bg1920.jpg) no-repeat left top fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
